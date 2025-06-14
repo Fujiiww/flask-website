@@ -1,0 +1,24 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{  
+    font-family: "Raleway", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#bg{
+    background-image: url(/static/images/coffee.jpg);
+}
+
+main h1,h2{
+    color: white;
+}
+
+.caixa{
+    background-color: #ececec; /* Fundo branco para cada cartão */
+    border-radius: 8px; /* Cantos arredondados, como na imagem */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para o efeito 3D */
+}
