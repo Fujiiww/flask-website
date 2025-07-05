@@ -1,0 +1,58 @@
+[
+    {
+        "img": "/static/images/carros/toyota.jpg",
+        "id": 1,
+        "marca": "Toyota",
+        "modelo": "Corolla",
+        "ano": 2020
+    },
+    {
+        "img":"/static/images/carros/civc.jpg",
+        "id": 2,
+        "marca": "Honda",
+        "modelo": "Civic",
+        "ano": 2021
+    },
+    {
+        "img":"/static/images/carros/focus.jpg",
+        "id": 3,
+        "marca": "Ford",
+        "modelo": "Focus",
+        "ano": 2019
+    },
+    {
+        "img":"/static/images/carros/onix.jpg",
+        "id": 4,
+        "marca": "Chevrolet",
+        "modelo": "Onix",
+        "ano": 2022
+    },
+    {
+        "img":"/static/images/carros/gold.jpg",
+        "id": 5,
+        "marca": "Volkswagen",
+        "modelo": "Golf",
+        "ano": 2018
+    },
+    {
+        "img": "/static/images/carros/corsa.png",
+        "id": 6,
+        "marca": "Chevrolet",
+        "modelo": "Corsa",
+        "ano":2012
+    },
+    {
+        "img": "/static/images/carros/Opala.png",
+        "id": 7,
+        "marca": "Chevrolet",
+        "modelo": "Opala",
+        "ano": 1968
+    },
+    {
+        "img": "/static/images/carros/Santana.jpg",
+        "id": 8,
+        "marca": "Volkswagen",
+        "modelo": "Santana",
+        "ano": 1991
+    }
+]

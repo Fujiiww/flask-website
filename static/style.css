@@ -17,8 +17,3 @@ main h1,h2{
     color: white;
 }
 
-.caixa{
-    background-color: #ececec; /* Fundo branco para cada cartão */
-    border-radius: 8px; /* Cantos arredondados, como na imagem */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para o efeito 3D */
-}

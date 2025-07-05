@@ -1,10 +1,13 @@
-from flask import Flask, render_template, redirect, url_for
+from flask import Flask, render_template
+import json
 
 app = Flask(__name__)
 
-@app.route("/")
-def Home():
-    return render_template("home.html")
+@app.route('/')
+def home():
+    with open('carros.json', 'r', encoding='utf-8') as f:
+        carros = json.load(f)
+    return render_template('home.html', carros=carros)
 
-if "__main__" == __name__:
+if __name__ == '__main__':
     app.run(debug=True)
